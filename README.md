@@ -11,13 +11,16 @@ By clarifying clear steps on building and deploying a MMM, it provides opportuni
 An OLS model is used due to its ease of interpretability. Whilst also being quick and easy to apply, which is an important factor in a fast-paced client environment.
 A Marketing channel may sometimes amplify other channels, resulting in and exponential impact. Therefore, Logarithmic models can be utilising to identify this behaviour.
  
-**Adstock**
+ 
+ **Adstock**
 
 ![image](https://user-images.githubusercontent.com/25266458/129876411-386d3288-f90f-4b74-a6bc-066989feb4a6.png)
 
 
 Adstock is the theory on continued marketing effect, beyond the point of advertising. Therefore, data is transformed using a Simple Decay-Effect Model:
  
+
+
 𝑎_𝑡=𝑥_𝑡+𝜆𝑎_(𝑡−1)           𝑡=1,…, 𝑛
 
 **Diminishing Returns**
@@ -25,6 +28,8 @@ Adstock is the theory on continued marketing effect, beyond the point of adverti
 ![image](https://user-images.githubusercontent.com/25266458/129876150-bf988aeb-b3f6-439d-86ae-5037731021f6.png)
 
 Diminishing Returns is the diminishing impact of spending more, as the advert has reached the target audience and saturated. Transformed using a Negative Exponential curve:
+
+
 
 𝑦_𝑡=(1−𝑒^(−𝑥_𝑡/𝛼) )∙𝛽  
 
